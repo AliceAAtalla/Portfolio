@@ -37,10 +37,9 @@
   color: var(--theme-color3)
 }
 
-/* Small devices (landscape phones, 576px and up) */
 @media (max-width: 1000px) { 
   .logo img {
-    width: 40vw;
+    width: 45vw;
   }
 
   .menu {

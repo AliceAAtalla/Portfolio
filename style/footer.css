@@ -1,0 +1,39 @@
+.footer-bottom {
+  width: 100%;
+  padding: 15rem;
+  position: fixed;
+  background-color: var(--theme-color);
+  bottom: 0;
+}
+
+.createdby {
+  color: var(--snow);
+  padding: 15rem 0 10rem;
+  font-size: 15rem;
+}
+
+.logo2 img {
+  width: 350rem;
+  padding: 15rem;
+}
+
+.icones a, .icones img{
+  width: 70rem;
+  padding: 0 10rem;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 1000px) { 
+  .logo2 img {
+    width: 250rem;
+  }
+  .icones a, .icones img{
+    width: 60rem;
+  }
+}
