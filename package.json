@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Meu primeiro portfólio de desenvolvimento web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliceAAtalla/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliceAAtalla/Portfolio/issues"
+  },
+  "homepage": "https://github.com/AliceAAtalla/Portfolio#readme",
+  "dependencies": {
+    "ityped": "^1.0.3"
+  }
+}

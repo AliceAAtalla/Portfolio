@@ -1,5 +1,5 @@
 .footer-bottom {
-  width: 100%;
+  width: 100vw;
   padding: 15rem;
   position: fixed;
   background-color: var(--theme-color);
