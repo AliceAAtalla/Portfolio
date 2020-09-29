@@ -4,25 +4,24 @@
 
 ## Primeira Parte
 
-* [ ] Escolha de cores
-* [ ] Escolha das Fontes
-* [ ] Esqueleto do HTML
-* [ ] Navbar - HTML
-* [ ] NavBar - CSS
-    * [ ] Media Small
-    * [ ] Media Medium
-    * [ ] Media Large
-* [ ] Footer - HTML
-* [ ] Footer - CSS
-    * [ ] Media Small
-    * [ ] Media Medium
-    * [ ] Media Large
+- [x] Escolha de cores
+- [x] Escolha das Fontes
+- [x] Navbar - HTML
+- [x] NavBar - CSS
+  - [x] Media Small
+  - [x] Media Medium
+  - [x] Media Large
+- [x] Footer - HTML
+- [x] Footer - CSS
+  - [x] Media Small
+  - [x] Media Medium
+  - [x] Media Large
 
 ## Segunda Parte
 
-* [ ] Apresentação - HTML
-* [ ] Apresentação - CSS
-    * [ ] Media Small
-    * [ ] Media Medium
-    * [ ] Media Large
-* [ ] Apresentação - iTyped.js
+- [ ] Apresentação - HTML
+- [ ] Apresentação - iTyped.js
+- [ ] Apresentação - CSS
+  - [ ] Media Small
+  - [ ] Media Medium
+  - [ ] Media Large
