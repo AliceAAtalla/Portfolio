@@ -24,6 +24,7 @@
 .about-me-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80vw;
   margin-bottom: 10rem;
   background-color: var(--snow);
@@ -32,9 +33,24 @@
   margin: -5% auto 200rem auto;
 }
 
-.about-me-article {
+.about-me-article h1 {
+  color: var(	--theme-color3);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 20rem;
   padding: 20rem;
+}
+
+.about-me-article {
+  color: var(--black-2);
+  text-align: justify;
+  font-size: 18rem;
+  padding: 10rem 30rem 40rem;
+}
+
+.about-me-article span {
+  line-height: 1.5;
 }
 
 .about-me-container img {
