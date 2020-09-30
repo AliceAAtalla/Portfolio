@@ -82,22 +82,23 @@ a {
 :root {
   /* Colors */
   --snow: #FFF9FB;
-  --blue: #4B88A2;
-  
 	--white: #ffffff;
 	--black: #16161a;
   --black-2: #252627;
-	--gray:#f7f7fd;
 
 /*  font-color */
 	--heading-color:#000a2d;
 	--heading-color2: #242b5e;
+	--heading-color3: #1e4384;
 
 /* Theme color */
 	--theme-color: #ec5b53;
-	--theme-color2: #1f2b7b;
+	--theme-color2: #f7847e;
+	--theme-color3: #fad888;
+	--theme-color4: #c8fdd9;
+	/* --theme-color2: #1f2b7b;
 	--theme-color3: #f27420;
-	--theme-color4: #ff3500;
+	--theme-color4: #ff3500; */
 	
 /*  Body Font */
 	--body-text-color: #464d65;

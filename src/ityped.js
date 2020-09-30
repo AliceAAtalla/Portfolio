@@ -1,10 +1,12 @@
 ityped.init('#ityped', {
   strings: [
-    'Dead simple animated typed.',
-    'No jQuery dependency.',
-    'Tiny size: <3kb.',
-    'Just install and Enjoy!',
+    'Hello World!',
+    'Me chamo Alice',
+    'Sou Desenvolvedora Front End!',
+    'Espero que goste do meu portfólio!',
   ],
   startDelay: 200,
-  loop: true,
+  typeSpeed: 150,
+  loop: false,
+  cursorChar: '_',
 });
