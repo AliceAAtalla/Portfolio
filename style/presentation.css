@@ -1,17 +1,17 @@
 .presentation {
   display: flex;
   font-size: 30rem;
-  color: var(--theme-color);
+  color: var(--snow);
   width: 100vw;
   justify-content: center;
   align-items: center;
   height: 400rem;
-  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  background: linear-gradient(to top, #ff5f6d, #ffc371);
 }
 
 .ityped-cursor {
   opacity: 1;
-  color: var(--theme-color2);
+  color: var(--snow);
 }
 
 @media (max-width: 700px) {
