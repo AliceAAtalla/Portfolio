@@ -1,9 +1,9 @@
 .footer-bottom {
   width: 100vw;
   padding: 15rem;
-  position: fixed;
+  position: absolute;
   background-color: var(--theme-color2);
-  bottom: 0;
+  bottom: 1;
   left: 0;
   margin-top: 1rem;
 }
