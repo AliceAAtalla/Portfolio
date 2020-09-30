@@ -86,15 +86,11 @@ a {
 	--black: #16161a;
   --black-2: #252627;
 
-/*  font-color */
-	--heading-color:#000a2d;
-	--heading-color2: #242b5e;
-	--heading-color3: #1e4384;
 
 /* Theme color */
 	--theme-color: #ff5f6d;
-	--theme-color3: #ec5b53;
 	--theme-color2: #f7847e;
+	--theme-color3: #ec5b53;
 	--theme-color4: #fad888;
 	/* --theme-color2: #1f2b7b;
 	--theme-color3: #f27420;
