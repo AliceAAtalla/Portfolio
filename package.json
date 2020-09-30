@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/AliceAAtalla/Portfolio/issues"
   },
-  "homepage": "https://github.com/AliceAAtalla/Portfolio#readme",
-  "dependencies": {
-    "ityped": "^1.0.3"
-  }
+  "homepage": "https://github.com/AliceAAtalla/Portfolio#readme"
 }

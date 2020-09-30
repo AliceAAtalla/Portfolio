@@ -1,0 +1,14 @@
+.presentation {
+  font-size: 30rem;
+  color: black;
+  width: 100vw;
+  height: 400rem;
+  /* background-color: var(--theme-color4); */
+  z-index: -1;
+}
+
+.ityped-cursor {
+  /* font-size: 2.2rem; */
+    opacity: 1;
+  color: white;
+}

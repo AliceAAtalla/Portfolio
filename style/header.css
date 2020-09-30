@@ -9,6 +9,7 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  max-height: 40rem;
 }
 
 .logo img {
@@ -62,6 +63,7 @@
 
   .active {
     visibility: visible;
+    z-index: 999;
   }
 }
 

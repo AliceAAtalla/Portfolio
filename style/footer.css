@@ -17,6 +17,12 @@
   padding: 15rem;
 }
 
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .icones a, .icones img{
   width: 60rem;
   padding: 0 10rem;
@@ -27,6 +33,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  max-height: 300rem;
 }
 
 @media (max-width: 1000px) { 
