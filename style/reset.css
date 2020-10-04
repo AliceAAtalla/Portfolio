@@ -95,16 +95,13 @@ a {
 	/* --theme-color2: #1f2b7b;
 	--theme-color3: #f27420;
 	--theme-color4: #ff3500; */
-	
-/*  Body Font */
-	--body-text-color: #464d65;
-	--hr-border-color:#eceff8;
 
 /*  btn and Section color */
 	--btn-bg: #ec5b53;
 
 /* // Section Bg */
-	--section-bg1: #454545;
+	/* --section-bg1: #ff986fa2; */
+	--section-bg1: #f8d9cdd5;
 }
 
 .container-general {

@@ -26,11 +26,11 @@
   justify-content: space-between;
   align-items: center;
   width: 80vw;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   background-color: var(--snow);
   border-radius: 20rem;
   box-shadow: 2rem 2rem 12rem rgba(83, 76, 76, 0.5);
-  margin: -5% auto 200rem auto;
+  margin: -5% auto 70rem auto;
 }
 
 .about-me-article {
