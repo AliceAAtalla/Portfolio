@@ -86,22 +86,19 @@ a {
 	--black: #16161a;
   --black-2: #252627;
 
-
 /* Theme color */
 	--theme-color: #ff5f6d;
+	--theme-color1: #f7908b;
 	--theme-color2: #f7847e;
 	--theme-color3: #ec5b53;
 	--theme-color4: #fad888;
-	/* --theme-color2: #1f2b7b;
-	--theme-color3: #f27420;
-	--theme-color4: #ff3500; */
 
 /*  btn and Section color */
 	--btn-bg: #ec5b53;
 
 /* // Section Bg */
-	/* --section-bg1: #ff986fa2; */
-	--section-bg1: #f8d9cdd5;
+	--section-bg1: #f7f0f0b0;
+	/* --section-bg1: #f8d9cdd5; */
 }
 
 .container-general {

@@ -4,10 +4,11 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--section-bg1);
-  height: 450rem;
+  height: 200rem;
   margin-bottom: 20rem;
   padding: 35rem 0;
   box-sizing: border-box;
+  box-shadow: inset 0px 0px 20px 0.5px var(--theme-color1);
 }
 
 .stacks-icons {
@@ -19,30 +20,14 @@
 }
 
 .stacks-icons img {
-  padding: 0 5rem 10rem;
+  padding: 7rem;
   width: 70rem;
   height: 70rem;
 }
 
-.specification h1 {
-  color: var(--theme-color3);
-  text-shadow: 2px 2px var(--white);
-  text-align: center;
-  font-size: 22rem;
-  padding-bottom: 15rem;
-}
-
-.list-stacks {
-  font-size: 18rem;
-  display: flex;
-  align-items: center;
-}
-
-.list-stacks ul {
-  padding: 0 25rem;
-}
-
-.list-stacks li {
-  color:var(--theme-color3);
-  padding-bottom: 3rem;
+@media (min-width: 900px) {
+  .stacks-icons img {
+    width: 85rem;
+    height: 85rem;
+  }  
 }
