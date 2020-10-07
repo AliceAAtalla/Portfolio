@@ -1,2 +1,6 @@
 /.unotes
 /node_modules
+node_modules/
+.npm
+.env
+.env.test
