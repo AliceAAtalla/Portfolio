@@ -92,13 +92,13 @@ a {
 	--theme-color2: #f7847e;
 	--theme-color3: #ec5b53;
 	--theme-color4: #fad888;
+	--theme-color5: #f7aba775;
 
 /*  btn and Section color */
 	--btn-bg: #ec5b53;
 
 /* // Section Bg */
-	--section-bg1: #f7f0f0b0;
-	/* --section-bg1: #f8d9cdd5; */
+	--section-bg1: #fff7f7d3;
 }
 
 .container-general {
@@ -106,4 +106,10 @@ a {
 	max-height: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.background {
+	background-color: var(--section-bg1);
+	box-shadow: inset 0px 0px 15px 0.5px var(--theme-color5);
+	padding: 35rem 0 20rem;
 }
