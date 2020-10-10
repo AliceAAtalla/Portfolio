@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/AliceAAtalla/Portfolio#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "nodemailer": "^6.4.13",
     "nodemailer-mailgun-transport": "^2.0.1"

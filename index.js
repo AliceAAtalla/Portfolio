@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const sendEmail = require('./services/mail.js');
 
 const isValid = require('./services/validation');
@@ -11,11 +10,12 @@ const PORT = 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.set('view engine', 'ejs');
+app.set('views', './public/views');
+
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'views', 'index.html'));
-});
+app.get('/', (_req, res) => res.render('index', { message: null }));
 
 app.post(
   '/',
@@ -23,7 +23,7 @@ app.post(
     const valid = isValid(req.body);
 
     if (valid.status === 'Not Valid') {
-      return res.status(500).send(`<h1>${valid.message}<h1>`);
+      return res.status(500).render('index', { message: valid.message });
     }
     return next();
   },
@@ -31,7 +31,9 @@ app.post(
     const { name, email, text } = req.body;
 
     sendEmail(name, email, text, (err, data) => {
-      err ? res.status(500).json({ message: 'Internal Error' }) : res.redirect('/');
+      err
+        ? res.status(500).json({ error: 'Erro interno no envio da mensagem' })
+        : res.redirect('/');
     });
   }
 );
