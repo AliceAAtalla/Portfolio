@@ -2,7 +2,6 @@ const emailValidator = /[A-Z0-9]{1,}@[A-Z0-9]{2,}\.[A-Z0-9]{2,}/i;
 const nameValidator = /\w{3,}/;
 
 const isValid = ({ name, email, text }) => {
-  console.log({ name, email, text });
   if (!nameValidator.test(name)) {
     return {
       status: 'Not Valid',

@@ -53,4 +53,16 @@
   <!-- Scripts -->
   <script type="text/javascript" src="../src/index.js"></script>
   <script type="text/javascript" src="../src/ityped.js"></script>
+  <script type="text/javascript">
+    const alertMessage = () => {
+      const message = document.querySelector('#msgError');
+      if (message) {
+        console.log('entrei no if');
+        return alert('Algo deu errado no envio da mensagem!');
+      }
+      console.log('nao to no if');
+      return null;
+    };
+    window.onload = () => alertMessage();
+  </script>
 </html>

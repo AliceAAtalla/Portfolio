@@ -20,6 +20,9 @@
       name="text"
       placeholder="Digite a sua mensagem aqui!"
     ></textarea>
+    <% if (message) { %>
+    <span id="msgError" class="message-form"><%= message %></span>
+    <% } %>
     <input type="submit" value="Enviar" class="btn" />
   </form>
 </section>

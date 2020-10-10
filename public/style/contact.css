@@ -39,7 +39,7 @@
 }
 
 .btn {
-  color: var(--snow);
+  color: var(--white);
   font-size: 16rem;
   font-weight: 600;
   background-color: var(--theme-color2);
@@ -53,6 +53,13 @@
   height: 200rem;
   border-radius: 50%;
   border: 2px solid var(--theme-color2);
+}
+
+.message-form {
+  width: 350rem;
+  text-align: center;
+  font-size: 14rem;
+  color: var(--theme-color3);
 }
 
 @media (min-width: 750px) {
