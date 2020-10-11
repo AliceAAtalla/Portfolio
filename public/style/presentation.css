@@ -34,7 +34,7 @@
 }
 
 .about-me-article {
-  color: var(--black-2);
+  color: var(--theme-color6);
   text-align: justify;
   font-size: 18rem;
   padding: 10rem 30rem 40rem;

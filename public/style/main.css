@@ -1,9 +1,9 @@
 .main-cards {
-  font-size: 14rem;
-  padding-bottom: 10rem;
+  padding: 50rem 30rem 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .card {
@@ -11,16 +11,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85vw;
-  background-color: var(--white);
+  width: 95%;
+  background-color: var(--section-bg1);
   border-radius: 10rem;
   box-shadow: 2rem 2rem 12rem var(--theme-color4);
-  padding: 10rem 0;
+  padding: 15rem 0;
+  margin-bottom: 30rem;
 }
 
 .card .img-project {
-  width: 80vw;
-  border: 2rem solid var(--theme-color5);
+  width: 85%;
+  box-shadow: 2rem 2rem 12rem var(--theme-color4);
   border-radius: 5rem;
 }
 
@@ -31,6 +32,11 @@
   margin-left: 15rem;
 }
 
+.btn-github img {
+  width: 50rem;
+  height: 50rem;
+}
+
 footer.btn-main {
   display: flex;
   justify-content: center;
@@ -39,9 +45,9 @@ footer.btn-main {
 } 
 
 .main-description {
-  padding-top: 15rem;
+  padding-top: 20rem;
   text-align: center;
-  color: var(--theme-color3);
+  color: var(--theme-color6);
 }
 
 .main-description h4 {
@@ -53,4 +59,27 @@ footer.btn-main {
 .main-description span {
   font-size: 16rem;
   padding-bottom: 15rem;
+}
+
+@media (min-width: 500px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media (min-width: 900px) {
+  .card {
+    width: 45%;
+  }
+  .main-cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .main-description h4 {
+    font-size: 20rem;
+  }
+  .main-description span {
+    font-size: 18rem;
+  }
 }
