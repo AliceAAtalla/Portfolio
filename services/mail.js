@@ -1,6 +1,10 @@
 const nodemailer = require('nodemailer');
 const mailGun = require('nodemailer-mailgun-transport');
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load();
+}
+
 const auth = {
   auth: {
     api_key: process.env.API_KEY,
