@@ -1,0 +1,30 @@
+.stacks-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 200rem;
+  /* margin-bottom: 20rem; */
+  box-sizing: border-box;
+}
+
+.stacks-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 15rem;
+}
+
+.stacks-icons img {
+  padding: 7rem;
+  width: 70rem;
+  height: 70rem;
+}
+
+@media (min-width: 900px) {
+  .stacks-icons img {
+    width: 85rem;
+    height: 85rem;
+  }  
+}

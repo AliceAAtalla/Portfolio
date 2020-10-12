@@ -9,6 +9,7 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  max-height: 40rem;
 }
 
 .logo img {
@@ -29,7 +30,7 @@
 .menu li {
   margin: auto 12rem;
   font-weight: 600;
-  color: var(--theme-color);
+  color: var(--theme-color7);
 }
 
 .menu li:hover {
@@ -62,6 +63,7 @@
 
   .active {
     visibility: visible;
+    z-index: 999;
   }
 }
 

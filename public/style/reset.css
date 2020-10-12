@@ -82,36 +82,35 @@ a {
 :root {
   /* Colors */
   --snow: #FFF9FB;
-  --blue: #4B88A2;
-  
 	--white: #ffffff;
 	--black: #16161a;
   --black-2: #252627;
-	--gray:#f7f7fd;
-
-/*  font-color */
-	--heading-color:#000a2d;
-	--heading-color2: #242b5e;
 
 /* Theme color */
-	--theme-color: #ec5b53;
-	--theme-color2: #1f2b7b;
-	--theme-color3: #f27420;
-	--theme-color4: #ff3500;
-	
-/*  Body Font */
-	--body-text-color: #464d65;
-	--hr-border-color:#eceff8;
+	--theme-color1: #ff5f6d;
+	--theme-color2: #f7847e;
+	--theme-color3: #ec5b53;
+	--theme-color4: #fad888;
+	--theme-color5: #ec9b53;
+	--theme-color6: #9f160f;
+	--theme-color7: #ffba7c;
 
 /*  btn and Section color */
 	--btn-bg: #ec5b53;
 
 /* // Section Bg */
-	--section-bg1: #454545;
+	--section-bg1: #fff7f7d3;
 }
 
 .container-general {
-  max-width: 1300px;
+	max-width: 1300px;
+	max-height: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.background {
+	background-color: var(--section-bg1);
+	box-shadow: inset 0px 0px 15px 0.5px var(--theme-color5);
+	padding: 35rem 0 20rem;
 }

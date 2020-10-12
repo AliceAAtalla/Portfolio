@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alice Arruda Atalla</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../style/header.css" />
+    <link rel="stylesheet" type="text/css" href="../style/footer.css" />
+    <link rel="stylesheet" type="text/css" href="../style/presentation.css" />
+    <link rel="stylesheet" type="text/css" href="../style/stacks.css" />
+    <link rel="stylesheet" type="text/css" href="../style/contact.css" />
+    <link rel="stylesheet" type="text/css" href="../style/main.css" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- iTyped.js -->
+    <script src="https://unpkg.com/ityped@0.0.5"></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Roboto+Slab:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="page-top">
+    <!-- HEADER START -->
+    <%- include('header') -%>
+    <!-- SECTION - PRESENTATION -->
+    <%- include('itype') -%>
+    <!-- SECTION - ABOUT ME -->
+    <%- include('aboutme') -%>
+    <!-- SECTION - STACKS -->
+    <%- include('stacks') -%>
+    <!-- MAIN PORTFÓLIO -->
+    <%- include('cardModel') -%>
+    <!-- SECTION - RESUMÉ AND CONTACT -->
+    <%- include('form', {message}) -%>
+    <!-- FOOTER END -->
+    <%- include('footer') -%>
+  </body>
+  <!-- Scripts -->
+  <script type="text/javascript" src="../src/index.js"></script>
+  <script type="text/javascript" src="../src/ityped.js"></script>
+  <script type="text/javascript">
+    const alertMessage = () => {
+      const message = document.querySelector('#msgError');
+      if (message) {
+        console.log('entrei no if');
+        return alert('Algo deu errado no envio da mensagem!');
+      }
+      console.log('nao to no if');
+      return null;
+    };
+    window.onload = () => alertMessage();
+  </script>
+</html>
