@@ -87,13 +87,13 @@ a {
   --black-2: #252627;
 
 /* Theme color */
-	--theme-color: #ff5f6d;
-	--theme-color1: #f7908b;
+	--theme-color1: #ff5f6d;
 	--theme-color2: #f7847e;
 	--theme-color3: #ec5b53;
 	--theme-color4: #fad888;
-	--theme-color5: #f7aba775;
-	--theme-color6: #5f3333;
+	--theme-color5: #ec9b53;
+	--theme-color6: #9f160f;
+	--theme-color7: #ffba7c;
 
 /*  btn and Section color */
 	--btn-bg: #ec5b53;

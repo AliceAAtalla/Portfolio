@@ -30,7 +30,7 @@
 .menu li {
   margin: auto 12rem;
   font-weight: 600;
-  color: var(--theme-color);
+  color: var(--theme-color7);
 }
 
 .menu li:hover {
