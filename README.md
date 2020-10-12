@@ -19,6 +19,8 @@ Status of the Project: Finish :star2:
 
 #### 🛠️ Deployment
 
+https://aliceatalla.herokuapp.com/
+
 ---
 
 #### 🔧 How to run the application?
