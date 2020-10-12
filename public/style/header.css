@@ -68,3 +68,14 @@
 }
 
 
+@media (min-width: 500px) { 
+  .logo img {
+    width: 50vw;
+  }
+
+  .menu {
+    visibility: hidden;
+  }
+}
+
+

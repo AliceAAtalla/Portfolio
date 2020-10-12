@@ -64,7 +64,6 @@ body {
   weight: 400;
 	width: 100vw;
 	min-width: 290rem;
-	overflow-x: auto;
 }
 
 button {
