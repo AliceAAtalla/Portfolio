@@ -12,16 +12,14 @@
   justify-content: center;
   align-items: center;
   width: 95%;
-  background-color: var(--section-bg1);
   border-radius: 10rem;
-  box-shadow: 2rem 2rem 12rem var(--theme-color4);
+  box-shadow: 2rem 2rem 10rem rgb(83 76 76 / 21%);
   padding: 15rem 0;
   margin-bottom: 30rem;
 }
 
 .card .img-project {
   width: 85%;
-  box-shadow: 2rem 2rem 12rem var(--theme-color4);
   border-radius: 5rem;
 }
 

@@ -1,4 +1,5 @@
 .footer-bottom {
+  box-sizing: border-box;
   width: 100vw;
   padding: 15rem;
   position: absolute;

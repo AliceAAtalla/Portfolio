@@ -3,13 +3,6 @@
    License: none (public domain)
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,9 +54,13 @@ body {
   font-size: 1px;
   height: 100vh;
   margin: auto;
-  weight: 400;
-	width: 100vw;
-	min-width: 290rem;
+  font-weight: 400;
+	min-width: 320px;
+}
+
+
+#root {
+  height: 100%;
 }
 
 button {
@@ -105,13 +102,12 @@ a {
 
 .container-general {
 	max-width: 1300px;
-	max-height: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
 .background {
 	background-color: var(--section-bg1);
-	box-shadow: inset 0px 0px 15px 0.5px var(--theme-color5);
+	box-shadow: inset 0px 0px 15px 0.5px var(--theme-color2);
 	padding: 35rem 0 20rem;
 }

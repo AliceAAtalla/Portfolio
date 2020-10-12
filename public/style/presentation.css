@@ -1,8 +1,9 @@
 .presentation {
   display: flex;
+  box-sizing: border-box;
   font-size: 30rem;
   color: var(--snow);
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
   height: 400rem;
@@ -31,7 +32,7 @@
   margin-bottom: 5rem;
   background-color: var(--snow);
   border-radius: 20rem;
-  box-shadow: 2rem 2rem 12rem rgba(83, 76, 76, 0.5);
+  box-shadow: 2rem 2rem 12rem var(--theme-color7);
   margin: -5% auto 70rem auto;
 }
 
@@ -43,10 +44,10 @@
 }
 
 .about-me-article h1 {
-  color: var(--theme-color1);
+  color: var(--theme-color3);
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20rem;
   padding: 20rem;
 }
