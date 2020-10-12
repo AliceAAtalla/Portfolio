@@ -56,7 +56,7 @@
 
   .nav-response {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     right: 30rem;
     z-index: 999
   }
@@ -67,18 +67,32 @@
   }
 }
 
-
 @media (min-width: 500px) { 
   .logo img {
     width: 50vw;
   }
 
   .menu {
+    top: 0;
+    margin: 50rem 0;
+    background-color: var(--snow);
+    flex-direction: column;
     visibility: hidden;
+    padding: 0 20rem;
+    height: 30vh;
+    font-size: 14rem;
   }
 
   .nav-response {
-    display: none;
+    display: block;
+    /* position: absolute; */
+    right: 30rem;
+    z-index: 999
+  }
+
+  .active {
+    visibility: visible;
+    z-index: 999;
   }
 }
 
