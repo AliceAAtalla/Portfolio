@@ -15,10 +15,10 @@ const isValid = ({ name, email, text }) => {
       message: 'Email inválido. Digite um email no formato email@examplo.com',
     };
   }
-  if (text.length < 100) {
+  if (text.length < 40) {
     return {
       status: 'Not Valid',
-      message: 'Mensagem inválida. Digite uma mensagem com no minímo 100 caracteres',
+      message: 'Mensagem inválida. Digite uma mensagem com no minímo 40 caracteres',
     };
   }
   return { status: 'Valid' };
