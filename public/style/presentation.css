@@ -12,11 +12,6 @@
   background: linear-gradient(to top, #ff5f6d, #ffc371);
 }
 
-.ityped-cursor {
-  opacity: 1;
-  color: var(--snow);
-}
-
 /* ABOUT ME */
 .about-me-container {
   display: flex;

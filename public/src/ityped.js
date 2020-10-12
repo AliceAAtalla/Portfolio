@@ -8,5 +8,5 @@ ityped.init('#ityped', {
   startDelay: 200,
   typeSpeed: 150,
   loop: false,
-  cursorChar: '_',
+  cursorChar: '',
 });
