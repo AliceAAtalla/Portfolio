@@ -1,11 +1,12 @@
 const express = require('express');
 const sendEmail = require('./services/mail.js');
+require('dotenv/config');
 
 const isValid = require('./services/validation');
 
 const app = express();
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
