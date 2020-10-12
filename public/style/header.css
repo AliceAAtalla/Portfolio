@@ -76,6 +76,10 @@
   .menu {
     visibility: hidden;
   }
+
+  .nav-response {
+    display: none;
+  }
 }
 
 
