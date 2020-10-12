@@ -7,7 +7,7 @@
 }
 
 .title {
-  color: var(--theme-color6);
+  color: var(--theme-color3);
   font-size: 25rem;
   padding: 10rem 0;
 }
@@ -32,7 +32,7 @@
   height: 200rem;
 }
 
-::placeholder, input, textarea {
+::placeholder, input.inputs, textarea {
   font-size: 14rem;
   color: var(--black-2);
   opacity: 0.7;
@@ -42,7 +42,7 @@
   color: var(--white);
   font-size: 16rem;
   font-weight: 600;
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color7);
   border-radius: 8rem;
   padding: 10rem 25rem;
   margin: 10rem 0;
@@ -84,5 +84,15 @@
   }
   form.contact-conteiners {
     width: 50vw;
+  }
+  .btn {
+    font-size: 20rem;
+    transform: scale(0.8);
+  }
+  .btn:hover {
+    color: var(--white);
+    background-color: var(--theme-color5);
+    transform: scale(1);
+    transition: transform 500ms linear;
   }
 }

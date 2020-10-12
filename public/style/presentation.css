@@ -34,14 +34,14 @@
 }
 
 .about-me-article {
-  color: var(--theme-color6);
+  color: var(--theme-color3);
   text-align: justify;
   font-size: 18rem;
   padding: 10rem 30rem 40rem;
 }
 
 .about-me-article h1 {
-  color: var(	--theme-color3);
+  color: var(--theme-color);
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
@@ -49,8 +49,9 @@
   padding: 20rem;
 }
 
-.about-me-article span {
+.about-me-article .paragraph {
   line-height: 1.5;
+  text-indent: 20rem;
 }
 
 .about-me-image img {
