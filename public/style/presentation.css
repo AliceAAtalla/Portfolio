@@ -1,7 +1,7 @@
 .presentation {
   display: flex;
   box-sizing: border-box;
-  font-size: 30rem;
+  font-size: 22rem;
   color: var(--snow);
   width: 100%;
   justify-content: center;
@@ -15,12 +15,6 @@
 .ityped-cursor {
   opacity: 1;
   color: var(--snow);
-}
-
-@media (max-width: 700px) {
-  .presentation {
-    font-size: 25rem;
-  }
 }
 
 /* ABOUT ME */
@@ -39,7 +33,6 @@
 .about-me-article {
   color: var(--theme-color3);
   text-align: justify;
-  font-size: 18rem;
   padding: 10rem 30rem 40rem;
 }
 
@@ -48,13 +41,15 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 20rem;
+  font-size: 18rem;
   padding: 20rem;
 }
 
 .about-me-article .paragraph {
   line-height: 1.5;
   text-indent: 20rem;
+  font-size: 14rem;
+  word-spacing: 2px;
 }
 
 .about-me-image img {
@@ -63,9 +58,15 @@
   padding: 5rem;
 }
 
-@media (min-width: 900px) {
-  .about-me-image {
-    max-width: 400rem;
+@media (min-width: 500px) {
+  .presentation {
+    font-size: 30rem;
+  }
+  .about-me-article h1 {
+    font-size: 20rem;
+  }
+  .about-me-article .paragraph {
+    font-size: 18rem;
   }
 }
 
@@ -83,5 +84,3 @@
     height: 85%;
   }
 }
-
-

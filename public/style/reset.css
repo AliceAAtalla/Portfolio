@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+input {
+	border: none;
+}
+
 html,
 body {
   box-sizing: border-box;
@@ -55,7 +59,7 @@ body {
   height: 100vh;
   margin: auto;
   font-weight: 400;
-	min-width: 320px;
+	min-width: 300px;
 }
 
 
