@@ -1,11 +1,10 @@
 .footer-bottom {
   width: 100%;
-  padding: 15rem;
+  padding: 15rem 0;
   position: absolute;
   background-color: var(--theme-color2);
   bottom: 1;
   left: 0;
-  right: 0;
   box-shadow: inset -7px 1px 20px 12px #ff926f;
 }
 
@@ -35,9 +34,10 @@
 .nav-footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-height: 300rem;
+  width: 100%;
 }
 
 @media (max-width: 900px) { 
