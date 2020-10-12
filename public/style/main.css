@@ -11,17 +11,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
-  background-color: var(--section-bg1);
+  width: 100%;
   border-radius: 10rem;
-  box-shadow: 2rem 2rem 12rem var(--theme-color4);
+  box-shadow: 2rem 2rem 10rem rgb(83 76 76 / 21%);
   padding: 15rem 0;
   margin-bottom: 30rem;
 }
 
 .card .img-project {
-  width: 85%;
-  box-shadow: 2rem 2rem 12rem var(--theme-color4);
+  width: 95%;
   border-radius: 5rem;
 }
 
@@ -33,8 +31,8 @@
 }
 
 .btn-github img {
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: 40rem;
 }
 
 footer.btn-main {
@@ -51,20 +49,30 @@ footer.btn-main {
 }
 
 .main-description h4 {
-  font-size: 18rem;
+  font-size: 16rem;
   font-weight: 600;
   padding-bottom: 10rem;
 }
 
 .main-description span {
-  font-size: 16rem;
+  font-size: 14rem;
   padding-bottom: 15rem;
 }
 
 @media (min-width: 500px) {
   .card {
-    width: 70%;
+    width: 85%;
   }
+  .main-description h4 {
+    font-size: 18rem;
+  }
+  .main-description span {
+    font-size: 16rem;
+  }  
+  .btn-github img {
+    width: 50rem;
+    height: 50rem;
+  }  
 }
 
 @media (min-width: 900px) {

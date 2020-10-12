@@ -4,7 +4,6 @@
   align-items: center;
   flex-direction: column;
   height: 200rem;
-  /* margin-bottom: 20rem; */
   box-sizing: border-box;
 }
 
@@ -18,8 +17,15 @@
 
 .stacks-icons img {
   padding: 7rem;
-  width: 70rem;
-  height: 70rem;
+  width: 45rem;
+  height: 45rem;
+}
+
+@media (min-width: 520px) {
+  .stacks-icons img {
+    width: 70rem;
+    height: 70rem;
+  }  
 }
 
 @media (min-width: 900px) {

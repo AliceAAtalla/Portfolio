@@ -1,11 +1,11 @@
 .footer-bottom {
-  width: 100vw;
+  width: 100%;
   padding: 15rem;
   position: absolute;
   background-color: var(--theme-color2);
   bottom: 1;
   left: 0;
-  margin-top: 1rem;
+  right: 0;
   box-shadow: inset -7px 1px 20px 12px #ff926f;
 }
 
@@ -13,10 +13,11 @@
   color: var(--snow);
   padding: 15rem 0 10rem;
   font-size: 15rem;
+  text-align: center;
 }
 
 .logo2 img {
-  width: 350rem;
+  width: 250rem;
   padding: 15rem;
 }
 
@@ -27,7 +28,7 @@
 }
 
 .icones a, .icones img{
-  width: 60rem;
+  width: 50rem;
   padding: 0 10rem;
 }
 
@@ -39,11 +40,11 @@
   max-height: 300rem;
 }
 
-@media (max-width: 1000px) { 
+@media (max-width: 900px) { 
   .logo2 img {
-    width: 250rem;
+    width: 200rem;
   }
   .icones a, .icones img{
-    width: 60rem;
+    width: 40rem;
   }
 }
