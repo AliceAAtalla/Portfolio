@@ -1,6 +1,5 @@
 const express = require('express');
 const sendEmail = require('./services/mail.js');
-require('dotenv/config');
 
 const isValid = require('./services/validation');
 
