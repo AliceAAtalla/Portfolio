@@ -63,6 +63,8 @@ body {
   margin: auto;
   weight: 400;
 	width: 100vw;
+	min-width: 400rem;
+	overflow-y: hidden;
 }
 
 button {

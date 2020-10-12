@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   height: 400rem;
+  text-align: center;
+  padding: 0 20rem;
   background: linear-gradient(to top, #ff5f6d, #ffc371);
 }
 
