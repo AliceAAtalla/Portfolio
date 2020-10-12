@@ -1,6 +1,8 @@
 # Portfólio
 
-###### Meu primeiro portfólio de desenvolvimento web.
+Meu primeiro portfólio de desenvolvimento web.
+
+![image](./public/assets/img/projetos/Portfolio.png)
 
 #### 🚀 Technologies, libs and frameworks:
 
