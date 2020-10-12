@@ -26,8 +26,8 @@
   margin-bottom: 5rem;
   background-color: var(--snow);
   border-radius: 20rem;
-  box-shadow: 2rem 2rem 12rem var(--theme-color7);
-  margin: -5% auto 70rem auto;
+  box-shadow: 2rem 2rem 10rem rgb(83 76 76 / 21%);
+  margin: -10% auto 70rem auto;
 }
 
 .about-me-article {
@@ -48,7 +48,7 @@
 .about-me-article .paragraph {
   line-height: 1.5;
   text-indent: 20rem;
-  font-size: 14rem;
+  font-size: 16rem;
   word-spacing: 2px;
 }
 
