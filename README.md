@@ -12,6 +12,7 @@ Meu primeiro portfólio de desenvolvimento web.
 - [NodeJS](https://nodejs.org/en/) \- Node.js is a JavaScript runtime built;
 - [Express](https://expressjs.com/) \- Fast, unopinionated, minimalist web framework for Node.js;
 - [EJS](https://ejs.co/) \- Embedded JavaScript templating;
+- [iTyped.js](https://github.com/luisvinicius167/ityped) \- Simple Animated typing;
 
 ---
 
